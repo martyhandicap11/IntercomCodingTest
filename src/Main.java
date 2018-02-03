@@ -43,7 +43,7 @@ public class Main
                     " AS distance_in_km\n " +
                     "FROM CustomerAS z\n " +
                     "JOIN(   /* these are the query parameters */\n" +
-                    "SELECT 42.81 AS latpoint, -70.81 AS longpoint,\n " +
+                    "SELECT 53.339428 AS latpoint, -6.257664 AS longpoint,\n " +
                     "100.0 AS radius, 111.045 AS distance_unit\n " +
                     " )AS p ON 1 = 1\n " +
                     " WHERE z.latitude\n " +
